@@ -1,0 +1,210 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font: 12px/17px "Lucida Grande", Sans-Serif;
+	background-color: #fff;
+	/*text-shadow: 0px 1px 0px white;*/
+}
+
+hr {
+	border: none;
+	background: #aaa;
+	height: 1px;
+	padding: 0px;
+	margin: 2px -8px 8px -8px;
+	-webkit-box-shadow: 0px 1px 0px #eee;
+}
+
+
+/* @group Tweet */
+
+.tweet {
+	/*background-color: #e3f5a4;*/
+	padding: 10px;
+	border-left: 10px solid #d6d6d6;
+	min-height: 32px;
+	text-shadow: 0px 1px 0px #fff;
+	background: #ebebeb;
+	overflow: hidden;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.options {
+	float: right;
+	display: inline;
+	width: 15px;
+	height: 15px;
+	background: transparent url(gear.png) no-repeat;
+	opacity: 0.5;
+}
+	.option:hover {
+		opacity: 1;
+	}
+
+.gearMenu {
+	width: 15px;
+	height: 15px;
+	border: 0px;
+	opacity: 0;
+}
+
+.topSeparator {
+	margin: 2px -8px 6px -8px;
+}
+
+.bottomSeparator {
+	margin: 8px -8px 2px -8px;
+}
+
+.informations {
+	font-size: 10px;
+	color: #888;
+}
+
+.informations a:link, .informations a:hover, .informations a:visited {
+	color: #666;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px white;
+}
+
+.informations a:hover {
+	text-decoration: underline;
+	color: #555;
+}
+
+.informations a.permalink:link, .informations a.permalink:hover, .informations a.permalink:visited {
+	color: #aaa;
+	font-weight: normal;
+}
+
+.informations a.permalink:link span, .informations a.permalink:hover span, .informations a.permalink:visited span {
+	color: #888;
+	font-weight: normal;
+}
+
+.informations a:hover span{
+	color: #555;
+}
+
+.functions {
+	display: block;
+	margin-left: 10px;
+	padding: 0px;
+	font-size: 10px;
+	line-height: 10px;
+	width: 20px;
+	float: right;
+	text-align: center;
+}
+	.functions a:link, .functions a:hover, .functions a:visited {
+		font-size: 12px;
+		line-height: 12px;
+		display: block;
+		background: #fff;
+		border-radius: 5px;
+		padding: 1px 2px;
+		-webkit-border-radius: 3px;
+		margin-bottom: 2px;
+	}
+
+/* @group Specifics */
+
+.self {
+	opacity: 0.7;
+}
+
+.response {
+	border-left-color: #73a5d7;
+	background: rgba(73, 165, 215, .3);
+}
+
+.dm {
+	border-left-color: rgb(73, 215, 165);
+	background: rgba(73, 215, 165, .3);
+}
+
+.avatar {
+	width: 50px;
+	float: left;
+	text-align: center;
+}
+
+.avatar img {
+	display: block;
+	width: 40px;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 2px;
+	/*background: #f90;*/
+}
+
+.BBSmiley {
+	margin-bottom: -3px;
+}
+
+.clear {
+	clear: both;
+}
+
+.content {
+	overflow: hidden;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* @group DM */
+/*
+.dm {
+	padding: 10px;
+	border-left: 10px solid #73a5d7;
+	min-height: 32px;
+	background: #ebebeb;
+	overflow: hidden;
+	border-bottom: 1px solid #d6d6d6;
+}*/
+
+/* @end */
+
+#notice {
+	text-align: center;
+	margin: 5px 10px;
+	padding: 5px 15px;
+}
+
+/* @group Notice */
+
+.Notice {
+	margin: 12px;
+	position: relative;
+	text-align: center;
+}
+
+.NoticeContent {
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+#shadow {
+	height: 16px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background: transparent url(shadow_.png) top center repeat-x;
+}
+
+a:link, a:visited, a:hover {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px white;
+}
+
+a:hover {
+	color: #444;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* @end */
